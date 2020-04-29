@@ -8,7 +8,7 @@ FROM abs0lom/meteord:<tag>
 
 and build the image. It's over.
 
-see on [dockerhub]()
+see on [dockerhub](https://hub.docker.com/repository/docker/abs0lom/meteord)
 
 #### Environment variables 
 
