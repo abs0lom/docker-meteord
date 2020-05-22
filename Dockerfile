@@ -13,10 +13,6 @@ ENV ROOT_URL http://localhost
 ENV MONGO_URL mongodb://127.0.0.1:27017/meteor
 ENV METEOR_SETTINGS {}
 
-# PM2 dashboard config
-ENV PM2_PUBLIC_KEY 
-ENV PM2_SECRET_KEY
-
 COPY scripts $BUILD_SCRIPTS_DIR
 RUN chmod -R 750 $BUILD_SCRIPTS_DIR
 

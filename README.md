@@ -18,3 +18,5 @@ see on [dockerhub](https://hub.docker.com/repository/docker/abs0lom/meteord)
 | ROOT\_URL        | http://localhost                 | default url for Meteor (see doc for more infos)                                         |
 | MONGO\_URL       | mongodb://localhost:27017/meteor | mongo url for Meteor (see doc for more infos). *This image don't contain Mongo server.* |
 | METEOR\_SETTINGS | {}                               | put your Meteor settings here. (see doc for more infos)                                 |
+| PM2\_PUBLIC\_KEY |                                  | connect pm2 dashboard                                                                   |
+| PM2\_SECRET\_KEY |                                  | connect pm2 dashboard                                                                   |
