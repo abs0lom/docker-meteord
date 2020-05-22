@@ -16,3 +16,4 @@ apt-get install -y --no-install-recommends \
 
 curl -v https://install.meteor.com/ | sh
 
+npm install -g pm2
